@@ -11,13 +11,13 @@ from linebot.models import (
 )
 import openai
 
-openai.api_key = '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'
+openai.api_key = '*******************************'
 
 app = Flask(__name__)
 
 line_bot_api = LineBotApi(
-    'RiTisAO4tpxtD1Re8R6wujvOjFYS9XEIKu+HX+gX+jPFQk1yMJc+XCLZPl8D6R0BnSFPwF+XR3M9HomyHMki9WHrC9+r4Gdv/THTgjF/69Pfz7p5en9+c4SIUZ6ExVzUqgZj0Q77lSpP/3KihQeY1gdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('cb3d6039892d658af28296593fc55723')
+    '*****************************')
+handler = WebhookHandler('***********************')
 
 
 @app.route("/callback", methods=['POST'])
